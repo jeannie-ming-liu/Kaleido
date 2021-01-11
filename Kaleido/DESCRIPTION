@@ -1,0 +1,11 @@
+Package: Kaleido
+Type: Package
+Title: Image transformation
+Version: 1.0
+Date: 2021-01-11
+Author: Haitao Zhao,Wanyun Lu,Jiaming Liu
+Maintainer: Haitao Zhao<haitaozhao@ruc.edu.cn>
+Description: Simple transformations, style changes and filter effects on pictures
+License: GNU GPLv3
+Imports: Rcpp,dplyr,readbitmap(>= 1.0.5)
+LinkingTo: Rcpp,RcppArmadillo
