@@ -1,5 +1,6 @@
 #' Image Loading
 #' The [im_load()] function loads image from a local path.
+#' @title Kaleido
 #' @import dplyr
 #' @import readbitmap
 ##' @param file refers to the path of the file
@@ -79,7 +80,7 @@ plot.nimg = function( x, ... ){
   
   if( im_nc( x ) == 1 ){
     # a raster array must have exactly 3 or 4 planes
-    x = im_rep( x, 3 )
+    x = im_rep( x)
   }
   im = x[ ,,, drop = FALSE ]
   if( max( im ) > 1 || min( im ) < 0 ){
